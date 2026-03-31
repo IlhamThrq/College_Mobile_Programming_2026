@@ -2,7 +2,6 @@ void main() {
   int nilai = 85; 
   String gradeIfElse = "";
 
-  // Menggunakan If-Else
   if (nilai >= 91 && nilai <= 100) {
     gradeIfElse = "Sangat Baik";
   } else if (nilai >= 81 && nilai <= 90) {
@@ -17,7 +16,6 @@ void main() {
     gradeIfElse = "Nilai Invalid";
   }
 
-  // Menggunakan Ternary Operator
   String gradeTernary = (nilai >= 91 && nilai <= 100) ? "Sangat Baik" :
                         (nilai >= 81 && nilai <= 90) ? "Baik" :
                         (nilai >= 71 && nilai <= 80) ? "Cukup" :
